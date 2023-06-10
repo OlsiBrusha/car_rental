@@ -1,15 +1,20 @@
+body{
+  position: relative;
+width: 1440px;
+height: 5230px;
+background: #FFFFFF;
+}
 .content{
-position: absolute;
-max-width: 1296px;
-height: 315px;
-left: 74px;
-top: 804px;
-background: #C4C4C4;
-
+  position: absolute;
+  width: 1296px;
+  height: 375px;
+  left: 74px;
+  top: 960px;
+  background: #C4C4C4;
   h1{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     height: 84px;
-   max-width: 754px; 
+   max-width: 754px;
     left: 120.32px;
     top: 887px;
     font-style: normal;
@@ -17,9 +22,9 @@ background: #C4C4C4;
   font-size: 49px;
   font-weight: 600;
   justify-content: left;
-  vertical-align: top;  
+  vertical-align: top;
   color: #081630;
-  text-transform: capitalize;  
+  text-transform: capitalize;
   margin-left: 45px;
   margin-top: 23px;
   }
@@ -31,13 +36,12 @@ background: #C4C4C4;
     top: 886px;
     border-radius: nullpx;
     justify-content: left;
-    vertical-align: top;  
+    vertical-align: top;
     font-size: 24px;
     color: rgba(0, 0, 0, 0.66);
     margin-left: 45px;
     margin-bottom: 55px;
    margin-top: -55px;
-  
   }
 input{
   height: 60px;
@@ -46,9 +50,6 @@ input{
   top: 15px;
   border-radius: 26px;
   color: orange;
-  
-  
-  
 }
 button{
   height: 60px;

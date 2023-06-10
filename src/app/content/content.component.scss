@@ -1,59 +1,72 @@
+body{
+  position: relative;
+width: 1440px;
+height: 5230px;
+background: #FFFFFF;
+}
+.banner {
+  position: absolute;
+  width: 1448px;
+  height: 641px;
+  left: -8px;
+  top: 139px;
+  img {
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    left: -8px;
+    top: 41px;
+  }
+}
 .content {
   position: absolute;
+  width: 1440px;
   height: 600px;
-  max-width: 1440px;
-  left: -10px;
-  top: 204px;
-
+  left: 0px;
+  top: 139px;
+  background: #C4C4C4;
   .description {
     position: absolute;
-    height: 260px;
     width: 310px;
-    left: 1114px;
-    top: 247px;
-    font-family: "DM Serif Display";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 44px;
-    text-transform: capitalize;
-    color: #000000;
-  }
-
-  h1 {
-    height: 85px;
-    width: 308px;
-    left: 1087px;
-    top: 447px;
-    border-radius: nullpx;
-    font-size: 32px;
-    font-weight: 400;
-    color: #000000;
-    justify-content: left;
-    vertical-align: top;
-    line-height: 44px;
-  }
-  p {
-    height: 60px;
-    width: 268px;
-    left: 1087px;
-    top: 550px;
-    border-radius: nullpx;
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 30.47px;
-    justify-content: left;
-    vertical-align: top;
-    color: #000000;
-    
-  }
-  button {
-    height: 41px;
-    width: 158px;
-    left: 1083px;
-    top: 630px;
-    border-radius: 17px;
-    background-color: blue;
-    color: white;
+    height: 260px;
+    left: 1060px;
+    top: 290px;
+    h1 {
+      position: absolute;
+      width: 308px;
+      height: 85px;
+      left: 27px;
+      top: 18px;
+      font-family: "DM Serif Display";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 44px;
+      text-transform: capitalize;
+      color: #000000;
+    }
+    p {
+      position: absolute;
+      width: 268px;
+      height: 60px;
+      left: 27px;
+      top: 125px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 30px;
+      color: #000000;
+    }
+    button {
+      position: absolute;
+      height: 41px;
+      width: 158px;
+      left: 23px;
+      top: 201px;
+      border-radius: 17px;
+      background-color: blue;
+      color: white;
+    }
   }
 }
