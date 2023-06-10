@@ -1,0 +1,548 @@
+body {
+  position: relative;
+  max-width: 1440px;
+  max-height: 5230px;
+  background: #ffffff;
+}
+.container {
+  position: absolute;
+  width: 1298px;
+  height: 1173px;
+  left: 72px;
+  top: 1854px;
+
+  H1 {
+    position: absolute;
+    width: 624px;
+    height: 50px;
+    left: 420px;
+    top: -100px;
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 62px;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  h2 {
+    position: absolute;
+    width: 371px;
+    height: 50px;
+    left: 390px;
+    top: -140px;
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 62px;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  h3 {
+    position: absolute;
+    left: 46.39%;
+    right: 35.5%;
+    top: 80.45%;
+    bottom: 44%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  button {
+    position: absolute;
+    width: 164px;
+    height: 40px;
+    left: 46.39%;
+    top: 85%;
+    border-radius: 12px;
+    background: #f1bc00;
+  }
+}
+
+.car1 {
+  position: absolute;
+  width: 309px;
+  height: 565px;
+  left: -50px;
+
+  background: #cbc9c2;
+  box-shadow: 5px 8px 19px -2px rgba(0, 0, 0, 0.44);
+  border-radius: 21px 21px 0px 0px;
+  .carData {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 21px 21px 0px 0px;
+    width: 311px;
+    height: 143px;
+    top: 422px;
+    .year1 {
+      position: absolute;
+      left: 9.4%;
+      right: 78.14%;
+      top: 8%;
+      bottom: 0%;
+    }
+    .price1 {
+      position: absolute;
+      left: 35.69%;
+      right: 35.05%;
+      top: 55%;
+      bottom: -18.85%;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 29px;
+      text-transform: capitalize;
+
+      color: #21408e;
+    }
+    button {
+      position: absolute;
+      width: 164px;
+      height: 40px;
+      top: 122px;
+      left: 75px;
+      border-radius: 12px;
+      background: #21408e;
+      color: white;
+    }
+  }
+  .carHeader1 {
+    position: absolute;
+    height: 167px;
+    width: 311px;
+    left: 0px;
+    top: 0px;
+    background: #faf5f8;
+    border-radius: 21px 21px 0px 0px;
+    .tittle1 {
+      position: absolute;
+      left: 14.47%;
+      right: 13.5%;
+      top: 5.54%;
+      bottom: 86.03%;
+
+      font-family: "Bodoni MT";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 34px;
+      line-height: 41px;
+      text-transform: capitalize;
+
+      color: #21408e;
+    }
+
+    img {
+      position: absolute;
+      width: 314px;
+      height: 254px;
+      left: 0px;
+      top: 170px;
+    }
+  }
+}
+.car2 {
+  position: absolute;
+  width: 309px;
+  height: 565px;
+  left: 300px;
+
+  background: #cbc9c2;
+  box-shadow: 5px 8px 19px -2px rgba(0, 0, 0, 0.44);
+  border-radius: 21px 21px 0px 0px;
+  .carData2 {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 21px 21px 0px 0px;
+    width: 311px;
+    height: 143px;
+    top: 422px;
+    .year2 {
+      position: absolute;
+      left: 9.4%;
+      right: 78.14%;
+      top: 8%;
+      bottom: 0%;
+    }
+    .price2 {
+      position: absolute;
+      left: 35.69%;
+      right: 35.05%;
+      top: 55%;
+      bottom: -18.85%;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 29px;
+      text-transform: capitalize;
+
+      color: #21408e;
+    }
+    button {
+      position: absolute;
+      width: 164px;
+      height: 40px;
+      top: 122px;
+      left: 75px;
+      border-radius: 12px;
+      background: #21408e;
+      border-radius: 12px;
+      color: white;
+    }
+  }
+  .carHeader2 {
+    position: absolute;
+    height: 167px;
+    width: 311px;
+    left: 0px;
+    top: 0px;
+    background: #faf5f8;
+    border-radius: 21px 21px 0px 0px;
+    .tittle2 {
+      position: absolute;
+      left: 14.47%;
+      right: 13.5%;
+      top: 5.54%;
+      bottom: 86.03%;
+
+      font-family: "Bodoni MT";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 34px;
+      line-height: 41px;
+      text-transform: capitalize;
+
+      color: #21408e;
+    }
+
+    img {
+      position: absolute;
+      width: 314px;
+      height: 254px;
+      left: 0px;
+      top: 170px;
+    }
+  }
+}
+.car3 {
+  position: absolute;
+  width: 309px;
+  height: 565px;
+  left: 650px;
+
+  background: #cbc9c2;
+  box-shadow: 5px 8px 19px -2px rgba(0, 0, 0, 0.44);
+  border-radius: 21px 21px 0px 0px;
+  .carData3 {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 21px 21px 0px 0px;
+    width: 311px;
+    height: 143px;
+    top: 422px;
+    .year3 {
+      position: absolute;
+      left: 9.4%;
+      right: 78.14%;
+      top: 8%;
+      bottom: 0%;
+    }
+    .price3 {
+      position: absolute;
+      left: 35.69%;
+      right: 35.05%;
+      top: 55%;
+      bottom: -18.85%;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 29px;
+      text-transform: capitalize;
+
+      color: #21408e;
+    }
+    button {
+      position: absolute;
+      width: 164px;
+      height: 40px;
+      top: 122px;
+      left: 75px;
+      border-radius: 12px;
+      background: #21408e;
+      border-radius: 12px;
+      color: white;
+    }
+  }
+  .carHeader3 {
+    position: absolute;
+    height: 167px;
+    width: 311px;
+    left: 0px;
+    top: 0px;
+    background: #faf5f8;
+    border-radius: 21px 21px 0px 0px;
+    .tittle3 {
+      position: absolute;
+      left: 14.47%;
+      right: 13.5%;
+      top: 5.54%;
+      bottom: 86.03%;
+
+      font-family: "Bodoni MT";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 34px;
+      line-height: 41px;
+      text-transform: capitalize;
+
+      color: #21408e;
+    }
+
+    img {
+      position: absolute;
+      width: 314px;
+      height: 254px;
+      left: 0px;
+      top: 170px;
+    }
+  }
+}
+.car4 {
+  position: absolute;
+  width: 309px;
+  height: 565px;
+  left: 1000px;
+
+  background: #cbc9c2;
+  box-shadow: 5px 8px 19px -2px rgba(0, 0, 0, 0.44);
+  border-radius: 21px 21px 0px 0px;
+  .carData4 {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 21px 21px 0px 0px;
+    width: 311px;
+    height: 143px;
+    top: 422px;
+    .year4 {
+      position: absolute;
+      left: 9.4%;
+      right: 78.14%;
+      top: 8%;
+      bottom: 0%;
+    }
+    .price4 {
+      position: absolute;
+      left: 35.69%;
+      right: 35.05%;
+      top: 55%;
+      bottom: -18.85%;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 29px;
+      text-transform: capitalize;
+
+      color: #21408e;
+    }
+    button {
+      position: absolute;
+      width: 164px;
+      height: 40px;
+      top: 122px;
+      left: 75px;
+      border-radius: 12px;
+      background: #21408e;
+      border-radius: 12px;
+      color: white;
+    }
+  }
+  .carHeader4 {
+    position: absolute;
+    height: 167px;
+    width: 311px;
+    left: 0px;
+    top: 0px;
+    background: #faf5f8;
+    border-radius: 21px 21px 0px 0px;
+    .tittle4 {
+      position: absolute;
+      left: 14.47%;
+      right: 13.5%;
+      top: 5.54%;
+      bottom: 86.03%;
+
+      font-family: "Bodoni MT";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 34px;
+      line-height: 41px;
+      text-transform: capitalize;
+
+      color: #21408e;
+    }
+
+    img {
+      position: absolute;
+      width: 314px;
+      height: 254px;
+      left: 0px;
+      top: 170px;
+    }
+  }
+}
+.brands {
+  position: absolute;
+  width: 1057px;
+  height: 55px;
+  left: 125px;
+  top: 790px;
+
+  .brand1 {
+    position: absolute;
+    width: 181px;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+
+    background: #c4c4c4;
+    border-radius: 13px;
+    p {
+      position: absolute;
+      width: 45px;
+      height: 26px;
+      left: 70px;
+      top: 14px;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 26px;
+
+      text-transform: capitalize;
+
+      color: #000000;
+    }
+  }
+  .brand2 {
+    position: absolute;
+    width: 181px;
+    height: 55px;
+    left: 240px;
+    top: 0px;
+
+    background: #c4c4c4;
+    border-radius: 13px;
+    p {
+      position: absolute;
+      width: 45px;
+      height: 26px;
+      left: 50px;
+      top: 14px;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 26px;
+
+      text-transform: capitalize;
+
+      color: #000000;
+    }
+  }
+  .brand3 {
+    position: absolute;
+    width: 181px;
+    height: 55px;
+    left: 480px;
+    top: 0px;
+
+    background: #c4c4c4;
+    border-radius: 13px;
+    p {
+      position: absolute;
+      width: -10px;
+      height: 26px;
+      left: 50px;
+      top: 14px;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 26px;
+
+      text-transform: capitalize;
+
+      color: #000000;
+    }
+  }
+  .brand4 {
+    position: absolute;
+    width: 181px;
+    height: 55px;
+    left: 720px;
+    top: 0px;
+
+    background: #c4c4c4;
+    border-radius: 13px;
+    p {
+      position: absolute;
+      width: 45px;
+      height: 26px;
+      left: 50px;
+      top: 14px;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 26px;
+
+      text-transform: capitalize;
+
+      color: #000000;
+    }
+  }
+  .brand5 {
+    position: absolute;
+    width: 181px;
+    height: 55px;
+    left: 960px;
+    top: 0px;
+
+    background: #c4c4c4;
+    border-radius: 13px;
+    p {
+      position: absolute;
+      width: 45px;
+      height: 26px;
+      left: 70px;
+      top: 14px;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 26px;
+
+      text-transform: capitalize;
+
+      color: #000000;
+    }
+  }
+}

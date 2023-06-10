@@ -1,0 +1,136 @@
+.container {
+  position: absolute;
+  width: 1299px;
+  height: 528px;
+  left: 83px;
+  top: 3070px;
+  background: #ffffff;
+
+  h1 {
+    position: absolute;
+    width: 482px;
+    height: 124px;
+    left: 450px;
+    top: 0px;
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 62px;
+    text-align: center;
+    color: #000000;
+  }
+}
+.info {
+  h1 {
+    position: absolute;
+    width: 205px;
+    height: 41px;
+    left: 1040px;
+    top: 339px;
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #000000;
+  }
+  p {
+    position: absolute;
+    width: 372px;
+    height: 70px;
+    left: 956px;
+    top: 380px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  img {
+    position: absolute;
+    width: 144px;
+    height: 120px;
+    left: 1070px;
+    top: 219px;
+
+    background: #f1bc00;
+  }
+}
+.booking{
+    img{
+        position: absolute;
+        width: 144px;
+        height: 120px;
+        left: 661px;
+        top: 219px;
+    }
+    h1{
+        position: absolute;
+        width: 271px;
+        height: 41px;
+        left: 614px;
+        top: 339px;
+        font-family: "DM Serif Display";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 41px;
+        text-align: center;
+        color: #000000; 
+    }
+    p{
+        position: absolute;
+    width: 372px;
+    height: 70px;
+    left: 547px;
+    top: 380px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    }
+}
+.settings{
+    img{
+        position: absolute;
+        width: 144px;
+        height: 120px;
+        left: 290px;
+        top: 219px;
+    }
+    h1{
+        position: absolute;
+        width: 205px;
+        height: 41px;
+        left: 260px;
+        top: 339px;
+        font-family: "DM Serif Display";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 41px;
+        text-align: center;
+        color: #000000; 
+    }
+    p{
+        position: absolute;
+    width: 372px;
+    height: 70px;
+    left: 176px;
+    top: 380px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    }
+}
