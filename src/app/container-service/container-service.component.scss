@@ -1,0 +1,85 @@
+body {
+  position: relative;
+  max-width: 1440px;
+  max-height: 5230px;
+  background: #ffffff;
+}
+.container {
+  position: absolute;
+  width: 1486.95px;
+  height: 685.06px;
+  left: 72px;
+  top: 1168px;
+  .content {
+    position: absolute;
+    width: 1298px;
+    height: 540px;
+    left: 0px;
+    top: 69px;
+    img {
+      position: absolute;
+      width: 817px;
+      height: 485px;
+      left: 38.95px;
+      top: 66px;
+      
+    }
+    .services {
+      position: absolute;
+      left: 835px;
+      top: 45px;
+      .tittle {
+        position: absolute;
+        width: 410px;
+        height: 62px;
+        left: 0px;
+        top: 45px;
+        font-family: "DM Serif Display";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 62px;
+        color: #21408e;
+      }
+      .service1 {
+        position: absolute;
+        width: 354px;
+        height: 83px;
+        left: 0px;
+        top: 92px;
+        font-family: "DM Serif Display";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        color: #000000;
+      }
+      .service2 {
+        position: absolute;
+        width: 354px;
+        height: 83px;
+        left: 0px;
+        top: 222px;
+        font-family: "DM Serif Display";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        color: #000000;
+      }
+      .service3 {
+        position: absolute;
+        width: 354px;
+        height: 83px;
+        left: 0px;
+        top: 352px;
+        font-family: "DM Serif Display";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        color: #000000;
+      }
+    }
+  }
+}

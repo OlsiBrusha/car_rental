@@ -9,6 +9,7 @@ import { ContainerServExperienceComponent } from './container-serv-experience/co
 import { ContentComponent } from './content/content.component';
 import { BookingComponent } from './booking/booking.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ContainerServiceComponent } from './container-service/container-service.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { HomeComponent } from './pages/home/home.component';
     ContainerServExperienceComponent,
    ContentComponent,
    BookingComponent,
-   HomeComponent
+   HomeComponent,
+   ContainerServiceComponent
     
   ],
   imports: [
