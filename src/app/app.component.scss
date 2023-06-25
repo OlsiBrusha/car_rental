@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    .all-movies{
+        width: 25%;
+        border-right: 1px solid #fc1d;
+        padding: 20px 40px;
+        font-family: "roboto",sans-serif;
+    }
+
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    h4{
+        text-transform: uppercase;
+        font-weight: bold;
+        border-left: 5px solid;
+        padding-left: 10px;
+    }
+}

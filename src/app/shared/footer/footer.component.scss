@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  position: relative;
+  width: 1440px;
+  height: 5230px;
+
+  background: #ffffff;
+}
+.footer {
+  position: absolute;
+  width: 1441px;
+  height: 558px;
+  left: 2px;
+  top: 4672px;
+  line-height: 1 , 5;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1441px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer {
+  background-color: #394050;
+  padding: 40px 0;
+}
+
+.line h4 {
+  color: #ffffff;
+  padding-top: 10px;
+  height: 20px;
+  font-size: 25px;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 1px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  padding: 42px;
+}
+
+.line {
+  margin-top: 20px;
+  width: 80%;
+  height: 2px;
+  background: rgb(142, 143, 142);
+  
+}
+
+
+
+.line h4{
+  padding: 32px;
+  
+}
+
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 6px;
+}
+
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
